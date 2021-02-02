@@ -12,27 +12,37 @@ To use GitHub we'll need to do a little one-time configuration to make sure your
 
 ## Your Actual Assignment
 Once you have your digital workspace setup you can do the actual assignment. 
+### Open the repository on your computer
 1. Navigate to “code” tab of your assignment repository in GitHub (online) if you are not already there.
 1. Click the “code” button.
 1. Choose “Open with GitHub Desktop”. This will launch GitHub Desktop on your computer.
 1. Verify where you’d like to store a local copy on your computer (I recommend keeping all of your repositories in the same place on your computer. On a Mac the default location is a GitHub folder inside of the documents folder). Don’t edit the content under “Repository URL or GitHub username and repository. You can choose a location for the files stored on your local computer under “local path” or keep it in the default location.
 1. When you are done, choose “clone.” This will take a minute because it is downloading a copy of all of the files in the repository hosted on GitHub.
 1. You'll see a message that says "No Local changes." Under it you will find the opton to "Open the repository in your external editor" you should see Visual Studio code as an option. Click that to launch your project in Visual studio code where you will actually edit the code of the assignment.
+
+### Edit files locally
 1. Edit the content.
     1. Navigate to the index.html file.
     1. Replace the text "your name" with your actual name. Do not delete any of the tags.
     1. Replace the text "your bio" with a short 1 paragraph (3-5 sentence) bio that you are willing to share publicly. Pro tip: Write the paragraph in a text editor like Google Docs or MS Word so that you can have it spell-checked and then paste it into the index.html file.
     1. Save your file (File > save or command + S). 
+    
+### Commit version to your repository
+_Remember that a commit is like getting a snapshot of the repository at a particular moment in time that you can get back to at some point in the future if you need to. Make commits after making a set of related changes/updates to files._
 1. Commit your change. 
     1. Navigate back to GitHub Desktop
     1. Click on the changes tab
     1. Title the name of your commit "update bio content"
     1. Click the "commit to main" button.
+    
+### Sync changes to the cloud
 1. Push change to server
     1. In GitHub Desktop make sure the main branch is selected.
     1. Click the "push origin" button
 1. Confirm your change was made by looking at your repository on github.com
-1. Make your webpage live
+
+### Make your webpage live
+1. Set up the directory for the live site
     1. Navigate to your repository folder on your computer. The default loaction on a Mac is in a GitHub folder in the documents folder.
     1. In that folder create a new folder called "docs". Note that case matters. Use all lowercase letters.
     1. Make a copy of your index.html file and add it to the docs folder. Note that you will now have two copies of the same file. One that is in the main directory of your repository and one that is in the docs folder. The docs folder is really hosting space. Think of it as entirely separate from your regular repository. You should only put final copies of work in this folder.
@@ -41,4 +51,5 @@ Once you have your digital workspace setup you can do the actual assignment.
     1. Click the commit button.
     1. Push repository to origin like you did above.
     1. Open your gitHub repository in the browser. You should now see a docs folder under the code tab.
+1. Make docs folder hosting space
     1. Navigate to "settings" and scroll down to "GitHub Pages". This is where we turn that docs folder into the hosting space we mentioned above. Under Branch choose "main" and under select folder choose "/docs" then click save. You will then see a message in that section appear that says "your site is published at...". The URL you see there is your live website. Click that link to see your site in the browser. This is the URL you will need to submit in Blackboard.
